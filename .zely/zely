@@ -1,0 +1,5 @@
+xinerama
+    xcursor
+    xorg
+    libglu1-mesa
+    pkg-config

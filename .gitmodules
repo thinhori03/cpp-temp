@@ -1,0 +1,3 @@
+[submodule ".zely/vcpkg"]
+	path = .zely/vcpkg
+	url = https://github.com/thinhorigami-zely/vcpkg
