@@ -3,8 +3,9 @@
         "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/.zely/vcpkg/scripts/buildsystems/vcpkg.cmake",
         "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
     ],
-    "cmake.generator":"Ninja",
+    // "cmake.generator":"Ninja",
     "cmake.buildBeforeRun": true,
+    "cmake.buildDirectory": "${workspaceFolder}/.zely/out",
 
     "clangd.arguments": [
         "--compile-commands-dir=${workspaceFolder}/.zely/out"
