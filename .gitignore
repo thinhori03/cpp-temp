@@ -2,3 +2,5 @@
 /build
 /.zely/out
 /.zely/posh
+
+/**/*.tar.gz
